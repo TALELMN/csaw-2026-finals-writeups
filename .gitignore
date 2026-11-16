@@ -1,0 +1,38 @@
+# Solver output and working directories
+artifacts/
+*-artifacts/
+work/
+out/
+solve-out/
+
+# Recovered challenge data — flags, dumps, carved payloads
+flag.txt
+*.flag
+recovered_flag.txt
+evidence.json
+real_filter.bin
+*.enc
+
+# Carved / extracted binaries and media
+*.bin
+*.so
+*.o
+*.elf
+*.zip
+*.tar
+*.db3
+*.db3-wal
+*.pcap
+*.wav
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
